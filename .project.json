@@ -1,0 +1,39 @@
+{
+  "dataBinding": {
+    "/webapp/view/Popover3.view.xml": {
+      "entitySet": ""
+    },
+    "/webapp/view/Popover2.view.xml": {
+      "entitySet": ""
+    },
+    "/webapp/view/VfScr.view.xml": {
+      "entitySet": ""
+    },
+    "/webapp/view/BPlan.view.xml": {
+      "entitySet": ""
+    },
+    "/webapp/view/DebSearch.view.xml": {
+      "entitySet": ""
+    },
+    "/webapp/view/ShopCart.view.xml": {
+      "entitySet": ""
+    },
+    "/webapp/view/Overview.view.xml": {
+      "entitySet": ""
+    }
+  },
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 19 Oct 2017 12:38:05 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de,ru",
+    "defaultLanguage": "de",
+    "defaultI18NPropertyFile": "i18n_de.properties",
+    "resourceModelName": "i18n"
+  }
+}

@@ -1,0 +1,89 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m" controllerName="blueSp5.controller.BPlan">
+	<m:Page showHeader="true" title="{i18n>visitPlan}" showFooter="true" showNavButton="false" id="bPlanPage">
+		<m:content>
+			<m:Table noDataText="Drop column list items here and columns in the area above" id="__table1">
+				<m:items>
+					<m:ColumnListItem id="__item1">
+						<m:cells><m:Text id="__text10"/><m:Button text="{i18n>searchDeb}" type="Emphasized" iconFirst="true" width="100%" enabled="true" visible="true" iconDensityAware="false"
+							press="searchDeb"/></m:cells>
+					</m:ColumnListItem>
+				</m:items>
+				<m:columns>
+					<m:Column id="__column5"></m:Column>
+					<m:Column id="__column6"></m:Column>
+				</m:columns>
+			</m:Table>
+			<m:Table width="100%" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" id="bTable">
+				<m:infoToolbar>
+					<m:Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+						<m:content>
+							<m:Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:content>
+					</m:Toolbar>
+				</m:infoToolbar>
+				<m:headerToolbar>
+					<m:Toolbar width="auto" height="46px" design="Transparent" visible="false" enabled="true">
+						<m:content>
+							<m:Title text="Items" titleStyle="Auto" width="auto" textAlign="Begin" visible="true"/>
+							<m:ToolbarSpacer width=""/>
+						</m:content>
+						<m:tooltip/>
+					</m:Toolbar>
+				</m:headerToolbar>
+				<m:columns>
+					<m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+						<m:header>
+							<m:Text text="{i18n>kunnr}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+						<m:header>
+							<m:Text text="{i18n>deb}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+						<m:header>
+							<m:Text text="{i18n>city}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+						<m:header>
+							<m:Text text="{i18n>devDate}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+				</m:columns>
+				<m:items>
+					<m:ColumnListItem type="Active" press="selDeb" selected="true">
+						<m:cells>
+							<m:Text text="Kundennummer" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<m:Text text="Kunde" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<m:Text text="Kunde/Adresse" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<m:Text text="Lieferdatum" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:cells>
+					</m:ColumnListItem>
+				</m:items>
+			</m:Table>
+			<m:Button text="{i18n>displDeb}" type="Emphasized" iconFirst="true" width="50%" enabled="true" visible="true" iconDensityAware="false"
+				press="displDeb"/>
+			<m:Button text="{i18n>createOrder}" type="Accept" iconFirst="true" width="50%" enabled="true" visible="true" iconDensityAware="false"
+				press="crOrder"/>
+		</m:content>
+		<m:footer>
+			<m:Bar design="Auto">
+				<m:contentLeft/>
+				<m:contentMiddle>
+					<m:Button text="{i18n>back}" type="Reject" iconFirst="true" width="70%" enabled="true" visible="true" iconDensityAware="false"
+						press="prBack"/>
+				</m:contentMiddle>
+				<m:contentRight/>
+			</m:Bar>
+		</m:footer>
+		<m:headerContent/>
+		<m:subHeader/>
+		<m:customHeader/>
+	</m:Page>
+</mvc:View>

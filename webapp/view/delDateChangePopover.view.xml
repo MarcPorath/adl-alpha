@@ -1,0 +1,24 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="blueSp5.controller.delDateChangePopover" xmlns:m="sap.m" xmlns:core="sap.ui.core" xmlns:unified="sap.ui.unified">
+    <m:Popover bounce="false" contentHeight="450px" contentWidth="350px" horizontalScrolling="true" modal="false" offsetX="0" offsetY="0" placement="Right" showHeader="true" title="{i18n>devDate}" verticalScrolling="true" visible="true">
+        <m:content>
+            <m:ComboBox editable="true" enabled="true" visible="true" width="318px" valueState="None" maxWidth="100%" selectionChange="_onComboBoxSelectionChange">
+                <m:items>
+                    <core:Item text="1" enabled="true"/>
+                    <core:Item text="2" enabled="true"/>
+                    <core:Item text="3" enabled="true"/>
+                    <core:Item text="4" enabled="true"/>
+                    <core:Item text="{i18n>anoDelDate}" enabled="true"/>
+                </m:items>
+            </m:ComboBox>
+            <unified:Calendar months="1" singleSelection="true" intervalSelection="false" firstDayOfWeek="0" visible="true">
+                <unified:specialDates/>
+                <unified:selectedDates/>
+            </unified:Calendar>
+        </m:content>
+        <m:beginButton/>
+        <m:customHeader/>
+        <m:endButton/>
+        <m:footer/>
+        <m:subHeader/>
+    </m:Popover>
+</mvc:View>

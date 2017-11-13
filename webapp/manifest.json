@@ -1,0 +1,165 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.2.0",
+		"id": "blueSp5",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "0.6.0"
+		},
+		"dataSources": {
+			"main": {
+				"uri": "/here/goes/your/serviceUrl/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"ach": "ach",
+		"resources": "resources.json",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.32.0"
+		}
+	},
+	"sap.ui": {
+		"_version": "1.2.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_bluecrystal"]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": {
+			"viewName": "generated.app.view.Overview",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.32.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "",
+				"settings": {
+					"bundleName": "blueSp5.i18n.i18n"
+				},
+				"preload": true
+			},
+			"materials": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "model/material.json"
+			}
+		},
+		"resources": {
+			"css": [],
+			"js": [{
+				"uri": "/libs/jqueryHotkeyInterface.js"
+			}, {
+				"uri": "/libs/jqueryHotkeys.js"
+			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "blueSp5.view",
+				"controlId": "App",
+				"clearTarget": false,
+				"controlAggregation": "pages",
+				"bypassed": {
+					"target": ["VfScr"]
+				}
+			},
+			"targets": {
+				"VfScr": {
+					"controlAggregation": "pages",
+					"viewName": "VfScr",
+					"viewId": "VfScr",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
+				"BPlan": {
+					"controlAggregation": "pages",
+					"viewName": "BPlan",
+					"viewId": "BPlan",
+					"viewLevel": 2,
+					"transition": "slide"
+				},
+				"DebSearch": {
+					"controlAggregation": "pages",
+					"viewName": "DebSearch",
+					"viewId": "DebSearch",
+					"viewLevel": 3,
+					"transition": "slide"
+				},
+				"ShopCart": {
+					"controlAggregation": "pages",
+					"viewName": "ShopCart",
+					"viewId": "ShopCart",
+					"viewLevel": 4,
+					"transition": "slide"
+				},
+				"Overview": {
+					"controlAggregation": "pages",
+					"viewName": "Overview",
+					"viewId": "Overview",
+					"viewLevel": 5,
+					"transition": "slide"
+				}
+			},
+			"routes": [{
+				"pattern": "VfScr/:context:",
+				"name": "VfScr",
+				"target": ["VfScr"]
+			}, {
+				"pattern": "",
+				"name": "default",
+				"target": ["VfScr"]
+			}, {
+				"pattern": "BPlan/:context:",
+				"name": "BPlan",
+				"target": ["BPlan"]
+			}, {
+				"pattern": "DebSearch/:context:",
+				"name": "DebSearch",
+				"target": ["DebSearch"]
+			}, {
+				"pattern": "ShopCart/:context:",
+				"name": "ShopCart",
+				"target": ["ShopCart"]
+			}, {
+				"pattern": "Overview/:context:",
+				"name": "Overview",
+				"target": ["Overview"]
+			}]
+		}
+	}
+}

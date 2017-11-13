@@ -1,0 +1,16 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="blueSp5.controller.changeAUART" xmlns:m="sap.m">
+    <m:Dialog horizontalScrolling="true" icon="sap-icon://warning" showHeader="true" state="None" stretch="false" title="{i18n>changeAA}" type="Standard" verticalScrolling="true">
+        <m:content>
+            <m:Text text="{i18n>confirmChangeAA}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+            
+        </m:content>
+        <m:beginButton/>
+        <m:buttons>
+            <m:Button text="{i18n>go}" type="Accept" iconFirst="true" width="30%" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+            <m:Button text="{i18n>reject}" type="Reject" iconFirst="true" width="30%" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress1"/>
+        </m:buttons>
+        <m:customHeader/>
+        <m:endButton/>
+        <m:subHeader/>
+    </m:Dialog>
+</mvc:View>

@@ -1,0 +1,435 @@
+{
+	"Material": [
+		{
+			
+			 "ID"	    :	10021044						,
+     		 "MATKL"	:	"0210",
+    		 "MEINS"	:	"BD",
+    		 "MATKX"	:	"Walsroder F+ 60/50cm natur",
+    		 "LIKZ"		:	"NLI",
+    		 "PEINH"	:	1,
+    		 "MINBE"	:	1,
+    		 "AVIAL"	:	true,
+    		 "NEWVK"	:	""			,
+    		 "VKAB"		:	""			,
+    		 "ZAKT"		:	""			,
+    		 "ZAKTINV"	:	""			
+    		 
+
+			
+		}, 
+			
+			{
+			
+			 "ID"	    :	10021203,
+     		 "MATKL"	:	"0210",
+    		 "MEINS"	:	"M",
+    		 "MATKX"	:	"Walsroder F+ 45/20m gelb gerafft",
+    		 "LIKZ"		:	"NLI",
+    		 "PEINH"	:	20,
+    		 "MINBE"	:	20,
+    		 "AVIAL"	:	true,
+    		 "NEWVK"	:	"2,89"			,
+    		 "VKAB"		:	"10.10.17"			,
+    		 "ZAKT"		:	""			,
+    		 "ZAKTINV"	:	""			
+    		 
+
+			
+		},
+		
+			{
+			
+			 "ID"	    :	10239462					,
+     		 "MATKL"	:	"2342",
+    		 "MEINS"	:	"EI",
+    		 "MATKX"	:	"Homann Mayonnaise 50% 10kg o.K.",
+    		 "LIKZ"		:	"NLI",
+    		 "PEINH"	:	1,
+    		 "MINBE"	:	1,
+    		 "AVIAL"	:	false,
+    		 "NEWVK"	:	""			,
+    		 "VKAB"		:	""			,
+    		 "ZAKT"		:	""			,
+    		 "ZAKTINV"	:	""			
+    		 
+
+			
+		},
+		
+			{
+			
+			 "ID"	    :	10380015						,
+     		 "MATKL"	:	"3021",
+    		 "MEINS"	:	"KG",
+    		 "MATKX"	:	"Rinderoberschale 8kg",
+    		 "LIKZ"		:	"NLI",
+    		 "PEINH"	:	1,
+    		 "MINBE"	:	1,
+    		 "AVIAL"	:	true,
+    		 "NEWVK"	:	"8,5"			,
+    		 "VKAB"		:	"10.10.2017"			,
+    		 "ZAKT"		:	""			,
+    		 "ZAKTINV"	:	""			
+    		 
+
+			
+		},
+		
+			{
+			
+			 "ID"	    :	10361013						,
+     		 "MATKL"	:	"3630",
+    		 "MEINS"	:	"ST",
+    		 "MATKX"	:	"NE Reibeküchle 75x60g",
+    		 "LIKZ"		:	"NLI",
+    		 "PEINH"	:	1,
+    		 "MINBE"	:	75,
+    		 "AVIAL"	:	true,
+    		 "NEWVK"	:	""			,
+    		 "VKAB"		:	""			,
+    		 "ZAKT"		:	""			,
+    		 "ZAKTINV"	:	""			,
+    		 "PRICE"	:	0.30,
+    		 "EK"		:	0.11,
+    		 "KOND"		:	"ZPRE",
+    		 "MARGIN"	:	"20,00%"
+    		 
+
+			
+		}
+		
+		],
+		
+		"DEB" : [
+			{
+						   "VKORG": 1034,
+						   "VKGRP": 230,
+						   "DATUM": "29.09.17",
+						   "KUNNR": 1075153,
+						   "NAME1": "Rewe der Supermarkt 049",
+						   "ORT01": "Kirn",
+						   "OPWERT": "0",
+						   "LIEFERTAG": "04.10.17",
+							"BASKT": [ {	
+						   			"ID"	    :	10021044,
+						   			 "PRICE"	:	3.5,
+    								 "EK"		:	2.79,
+    								 "KOND"		:	"ZIDV",
+    								 "MARGIN"	:	"20,00%",
+    								 "LASTVK"	:	20,
+    								 "LASTOR"	:	2536,
+    								 "TOTVK"	:	55
+						   							   },
+									
+								{	
+									"ID"	    :	10021203,
+									 "PRICE"	:	2.79,
+									 "EK"		:	1.70,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	100,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	100
+													   },
+								 {	
+									"ID"	    :	10239462,
+									 "PRICE"	:	15.99,
+									 "EK"		:	10.24,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	1,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	360
+													   },
+								 {	
+									"ID"	    :	10361013,
+									 "PRICE"	:	7.98,
+									 "EK"		:	5.00,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	15,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	365
+													   }  	]
+						 },
+						 {
+						   "VKORG": 1034,
+						   "VKGRP": 230,
+						   "DATUM": "29.09.17",
+						   "KUNNR": 1075202,
+						   "NAME1": "Rewe 067",
+						   "ORT01": "Köln-Rondorf",
+						   "OPWERT": "1000",
+						   "LIEFERTAG": "04.10.17",
+							"BASKT": [ {	
+						   			"ID"	    :	10021044,
+						   			 "PRICE"	:	3.5,
+    								 "EK"		:	2.79,
+    								 "KOND"		:	"ZIDV",
+    								 "MARGIN"	:	"20,00%",
+    								 "LASTVK"	:	20,
+    								 "LASTOR"	:	2536,
+    								 "TOTVK"	:	55
+						   							   },
+									
+								{	
+									"ID"	    :	10021203,
+									 "PRICE"	:	2.79,
+									 "EK"		:	1.70,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	100,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	100
+													   },
+								 {	
+									"ID"	    :	10239462,
+									 "PRICE"	:	15.99,
+									 "EK"		:	10.24,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	1,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	360
+													   },
+								 {	
+									"ID"	    :	10361013,
+									 "PRICE"	:	7.98,
+									 "EK"		:	5.00,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	15,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	365
+													   }  	]	  			   
+						 },
+						 {
+						   "VKORG": 1034,
+						   "VKGRP": 231,
+						   "DATUM": "29.09.17",
+						   "KUNNR": 1038901,
+						   "NAME1": "Hotel Zur Kupferkanne GmbH",
+						   "ORT01": "Kobern-Gondorf",
+						   "OPWERT": "500",
+						   "LIEFERTAG": "04.10.17",
+							"BASKT": [ {	
+						   			"ID"	    :	10021044,
+						   			 "PRICE"	:	3.5,
+    								 "EK"		:	2.79,
+    								 "KOND"		:	"ZIDV",
+    								 "MARGIN"	:	"20,00%",
+    								 "LASTVK"	:	20,
+    								 "LASTOR"	:	2536,
+    								 "TOTVK"	:	55
+						   							   },
+									
+								{	
+									"ID"	    :	10021203,
+									 "PRICE"	:	2.79,
+									 "EK"		:	1.70,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	100,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	100
+													   },
+								 {	
+									"ID"	    :	10239462,
+									 "PRICE"	:	15.99,
+									 "EK"		:	10.24,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	1,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	360
+													   },
+								 {	
+									"ID"	    :	10361013,
+									 "PRICE"	:	7.98,
+									 "EK"		:	5.00,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	15,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	365
+													   }  	]
+						 },
+						 {
+						   "VKORG": 1034,
+						   "VKGRP": 231,
+						   "DATUM": "29.09.17",
+						   "KUNNR": 1037575,
+						   "NAME1": "Metzgerei Odenkirchen Marc",
+						   "ORT01": "Klettenberg",
+						   "OPWERT": "275,36",
+						   "LIEFERTAG": "04.10.17",
+							"BASKT": [ {	
+						   			"ID"	    :	10021044,
+						   			 "PRICE"	:	3.5,
+    								 "EK"		:	2.79,
+    								 "KOND"		:	"ZIDV",
+    								 "MARGIN"	:	"20,00%",
+    								 "LASTVK"	:	20,
+    								 "LASTOR"	:	2536,
+    								 "TOTVK"	:	55
+						   							   },
+									
+								{	
+									"ID"	    :	10021203,
+									 "PRICE"	:	2.79,
+									 "EK"		:	1.70,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	100,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	100
+													   },
+								 {	
+									"ID"	    :	10239462,
+									 "PRICE"	:	15.99,
+									 "EK"		:	10.24,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	1,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	360
+													   },
+								 {	
+									"ID"	    :	10361013,
+									 "PRICE"	:	7.98,
+									 "EK"		:	5.00,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	15,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	365
+													   }  	]
+						 },
+						 {
+						   "VKORG": 1034,
+						   "VKGRP": 231,
+						   "DATUM": "29.09.17",
+						   "KUNNR": 1042105,
+						   "NAME1": "Fleischerei Gläser Hans",
+						   "ORT01": "Polch",
+						   "OPWERT": "10",
+						   "LIEFERTAG": "04.10.17",
+							"BASKT": [ {	
+						   			"ID"	    :	10021044,
+						   			 "PRICE"	:	3.5,
+    								 "EK"		:	2.79,
+    								 "KOND"		:	"ZIDV",
+    								 "MARGIN"	:	"20,00%",
+    								 "LASTVK"	:	20,
+    								 "LASTOR"	:	2536,
+    								 "TOTVK"	:	55
+						   							   },
+									
+								{	
+									"ID"	    :	10021203,
+									 "PRICE"	:	2.79,
+									 "EK"		:	1.70,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	100,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	100
+													   },
+								 {	
+									"ID"	    :	10239462,
+									 "PRICE"	:	15.99,
+									 "EK"		:	10.24,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	1,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	360
+													   },
+								 {	
+									"ID"	    :	10361013,
+									 "PRICE"	:	7.98,
+									 "EK"		:	5.00,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	15,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	365
+													   }  	]
+						 },
+						 {
+						   "VKORG": 1034,
+						   "VKGRP": 230,
+						   "DATUM": "29.09.17",
+						   "KUNNR": 1075418,
+						   "NAME1": "Rewe 163",
+						   "ORT01": "Düsseldorf-Wersten",
+						   "OPWERT": "0",
+						   "LIEFERTAG": "04.10.17",
+							"BASKT": [ 
+									
+								{	
+									"ID"	    :	10021203,
+									 "PRICE"	:	2.79,
+									 "EK"		:	1.70,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	100,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	100
+													   },
+								 {	
+									"ID"	    :	10239462,
+									 "PRICE"	:	15.99,
+									 "EK"		:	10.24,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	1,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	360
+													   },
+								 {	
+									"ID"	    :	10361013,
+									 "PRICE"	:	7.98,
+									 "EK"		:	5.00,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	15,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	365
+													   }  	]
+						 },
+						 {
+						   "VKORG": 1034,
+						   "VKGRP": 231,
+						   "DATUM": "29.09.17",
+						   "KUNNR": 1043165,
+						   "NAME1": "Metzgerei Schneider GmbH",
+						   "ORT01": "Bächel",
+						   "OPWERT": "250",
+						   "LIEFERTAG": "04.10.17",
+							"BASKT": [ {	
+						   			"ID"	    :	10021044,
+						   			 "PRICE"	:	3.5,
+    								 "EK"		:	2.79,
+    								 "KOND"		:	"ZIDV",
+    								 "MARGIN"	:	"20,00%",
+    								 "LASTVK"	:	20,
+    								 "LASTOR"	:	2536,
+    								 "TOTVK"	:	55
+						   							   },
+									
+								{	
+									"ID"	    :	10021203,
+									 "PRICE"	:	2.79,
+									 "EK"		:	1.70,
+									 "KOND"		:	"ZIDV",
+									 "MARGIN"	:	"20,00%",
+									 "LASTVK"	:	100,
+									 "LASTOR"	:	2536,
+									 "TOTVK"	:	100
+													   }  	]
+						 }
+						]
+		
+}

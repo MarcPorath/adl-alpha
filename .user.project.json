@@ -1,0 +1,63 @@
+{
+  "run": [
+    {
+      "filePath": "/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 7321799,
+        "displayName": "Run index.html",
+        "lastRunTimeStamp": 1510573014742
+      }
+    },
+    {
+      "filePath": "/webapp/test/testFLPService.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": ""
+        }
+      ],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 8299913,
+        "runnerId": "webapprunner",
+        "displayName": "Run testFLPService.html",
+        "lastRunTimeStamp": 1508837331890
+      }
+    },
+    {
+      "filePath": "/webapp/Component.js",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 8880581,
+        "runnerId": "fiorirunner",
+        "displayName": "Run Component.js",
+        "lastRunTimeStamp": 1508237782244
+      }
+    }
+  ]
+}
