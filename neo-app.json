@@ -4,7 +4,7 @@
   
     
       {
-        "path": "/resources",<
+        "path": "/resources",
         "target": {
           "type": "service",
           "name": "sapui5",
