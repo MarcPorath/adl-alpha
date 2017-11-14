@@ -4,7 +4,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
     "sap/ui/core/routing/History"
     ], function(BaseController, MessageBox, Utilities, History) {
     "use strict";
-// Ich tausche deinen Testkommentar aus
+//test kommentar nummer 2
     return BaseController.extend("blueSp5.controller.BPlan", {
     handleRouteMatched: function (oEvent) {
             		
