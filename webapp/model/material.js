@@ -11,10 +11,14 @@ sap.ui.define([
 				return this.basketinfo;
 			}
 			
-			//read SAP Data
-			//BAPI_MATERIAL_GET_DETAIL
+			this.showAvailability = function(){
+				//SAP Availability Check
+				// BAPI_MATERIAL_AVAILABILITY
+				return null;
+			}
 			
-			
-			
+			this.readSAPdata = function(){
+				return null;
+			}			
 	}
 );
