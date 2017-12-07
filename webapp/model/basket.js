@@ -9,12 +9,13 @@ sap.ui.define([ "sap/ui/model/json/JSONModel", "sap/ui/Device" ],
 			// Functions
 			this.read = function() {
 				return this.material;
-			}
+			};
 			this.addMaterial = function(matnr) {
 				this.material = this.material.push(matnr);
-			}
+			};
 			this.dropMaterial = function(matnr) {
+				return null;
 				// this.material =
-			}
+			};
 
 		});

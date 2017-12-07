@@ -9,16 +9,16 @@ sap.ui.define([
 			// Functions
 			this.readBasketInfo = function(){
 				return this.basketinfo;
-			}
+			};
 			
 			this.showAvailability = function(){
 				//SAP Availability Check
 				// BAPI_MATERIAL_AVAILABILITY
 				return null;
-			}
+			};
 			
 			this.readSAPdata = function(){
 				return null;
-			}			
+			};		
 	}
 );

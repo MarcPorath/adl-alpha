@@ -10,18 +10,18 @@ sap.ui.define([
 			
 			this.addBasket = new function(basket){
 				this.basket.push(basket);
-			}
+			};
 			
 			this.readCustomer = new function(){
 				return this.kunnr;
-			}
+			};
 			
 			this.changeCustomerContact = new function(){
 				//Ansprechpartner ändern
-			}
+			};
 			
 			this.readBusinessContact = new function(){
 				return this.contacts;
-			}
+			};
 	}
 );
